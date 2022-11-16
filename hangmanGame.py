@@ -2,14 +2,10 @@ import helperFunctions
 import os
 import time
 
-
-#ADD FUNCTION ON HERE THAT LETS ONE PLAYER ENTER THE WORD AND A SECOND DO THE GUESSING
-#CAN ALSO ADD AN ARRAY OF POTENTIAL WORDS AND A RANDOM NUMBER GENERATOR TO SELECT FROM THEM
-#CAN MAKE YOU CHOOSE BETWEEN AUTO GENERATED AND USER SELECTED WORDS
 #NEED TO ADD SOME VALIDATION SO BOTH WORDS AND GUESSES ARE ONLY ALPHA CHARACTERS
 repeat = True
 while repeat:
-    wordToGuess = "hangman"
+    wordToGuess = ""
     hangmanSourceList = [["O"],["-","|","-"],["|","|"]]
     man = [[],[],[]]
     row = 0
